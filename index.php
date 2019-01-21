@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
 		$tblCnt++;
 		echo $row[0]."<br \>\n";
-                echo "Test #2";
+                echo "Test #3";
 	}
 }
 if (!$tblCnt) {
